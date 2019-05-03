@@ -1,0 +1,28 @@
+{
+	"name": "SourceDataset_u2b",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "First Name",
+				"type": "String"
+			},
+			{
+				"name": "Last Name",
+				"type": "String"
+			},
+			{
+				"name": "EmployeeID",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Employyedetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

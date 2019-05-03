@@ -1,0 +1,10 @@
+{
+	"name": "VikasAzureKeyVault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://vikaskeyvault1.vault.azure.net/"
+		}
+	}
+}

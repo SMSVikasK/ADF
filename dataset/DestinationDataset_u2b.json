@@ -1,0 +1,34 @@
+{
+	"name": "DestinationDataset_u2b",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "First Nam",
+				"type": "nchar",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "Last Name",
+				"type": "nchar",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "Employee ID",
+				"type": "nchar",
+				"precision": 255,
+				"scale": 255
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[ASQLDB]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
